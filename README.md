@@ -14,10 +14,11 @@ To solve questions of this dataset you need to know the working knowledge of the
 
 **Functions/Formulas**
 
-- SUMIFS
+- SUMIF
 - LEFT, RIGHT, MID and FIND
 - CONDITIONAL FORMATTING
 - XLOOKUP
+- DATEDIF
 - IFS
 - FILTER and SORTING
 - PIVOT TABLE and PIVOT CHARTS
@@ -29,13 +30,15 @@ In this project we will try find the solutions of all 8 questions asked in this 
 
 **A1** ![Screenshot 2024-12-02 134554](https://github.com/user-attachments/assets/97581501-6a2d-4d68-99b2-a98c1a16e8ac)
 
-
+- This is very simple, we need to apply **SUMIF** to find total sum of profits for a single Order ID.
 
 **Q2: Find the number of days between the Order Date and Ship Date for first 50 orders. Highlight orders shipped in less than three days using conditional formatting.**
 
 **A2** ![Screenshot 2024-12-02 134903](https://github.com/user-attachments/assets/c34b0fed-9340-47b3-b93c-fb6c6227c289)
 
-
+- To find the number of days, we will use **DATEDIF**. Now DATEDIF function is hidden in Excel because its one of the Excel legacy functions, if you don't know the syntax then here it is =DATEDIF(start_date, end_date, unit) where unit is "D", "M", "Y".
+- After we select the Shipping days column we created and click on Conditional Formatting under Home Tab.
+- Then select Highlight cell rules > Less than > type 3 in the option > format as you need and hit ok.
 
 
 **Q3: Extract the first two letters of each Manager name from the Managers sheet and create a new table with these abbreviations.**
