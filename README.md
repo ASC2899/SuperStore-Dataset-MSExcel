@@ -40,7 +40,7 @@ In this project we will try find the solutions of all 8 questions asked in this 
 
 **Q3: Extract the first two letters of each Manager name from the Managers sheet and create a new table with these abbreviations.**
 
-**A3** ![Screenshot 2024-12-02 132521](https://github.com/user-attachments/assets/b9f33ab4-7e0e-4560-8e75-a94516943d46)
+**A3** ![Screenshot 2024-12-02 133935](https://github.com/user-attachments/assets/7716a07e-c67b-4137-955b-992483f64cee)
 
 
 
