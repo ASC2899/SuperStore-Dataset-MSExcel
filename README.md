@@ -91,4 +91,4 @@ In this project we will try find the solutions of all 8 questions asked in this 
 
 This is very simple:
 - Select the Profit column > Click on Conditional Formatting and select Less Than > Enter 0 in the field and choose the format as you prefer.
-- Select the Discount column > Click on Conditional Formatting and select Grater Than > Enter 0.5 in the field and choose the format as you prefer.
+- Select the Discount column > Click on Conditional Formatting and select Greater Than > Enter 0.5 in the field and choose the format as you prefer.
